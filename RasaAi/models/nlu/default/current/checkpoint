@@ -1,0 +1,2 @@
+model_checkpoint_path: "/Users/Matthew/Github/PyData18/rasa-workshop-pydata-nyc/./models/nlu/default/current/intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "/Users/Matthew/Github/PyData18/rasa-workshop-pydata-nyc/./models/nlu/default/current/intent_classifier_tensorflow_embedding.ckpt"
