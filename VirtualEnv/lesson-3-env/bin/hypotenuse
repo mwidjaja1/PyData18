@@ -1,0 +1,12 @@
+#!/Users/Matthew/Github/python-env-masterclass/lesson-3-env/bin/python
+# EASY-INSTALL-ENTRY-SCRIPT: 'lesson-3==0.1','console_scripts','hypotenuse'
+__requires__ = 'lesson-3==0.1'
+import re
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
+    sys.exit(
+        load_entry_point('lesson-3==0.1', 'console_scripts', 'hypotenuse')()
+    )
